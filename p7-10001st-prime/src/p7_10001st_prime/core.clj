@@ -6,6 +6,14 @@
   [& args]
   (println "Hello, World!"))
 
-(map identity [1 2 3])
+;; By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13,
+;; we can see that the 6th prime is 13.
+;; What is the 10 001st prime number?
 
-
+(defn prime?
+  [n x]
+  (if (= n x)
+    true
+    (if (zero? (mod n x))
+      (prime? n (inc x))
+      false)))

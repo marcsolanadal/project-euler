@@ -2,6 +2,10 @@
   (:require [clojure.test :refer :all]
             [p7-10001st-prime.core :refer :all]))
 
-(deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 0 1))))
+(testing "Should identify primes"
+  (is (= true (prime? 13 0)))
+  (is (= false (prime? 10 0)))
+  )
+
+;; "find prime"
+;; "find next prime"
