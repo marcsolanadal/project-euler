@@ -1,10 +1,9 @@
-(defproject p4-largest-palindrome-product "0.1.0-SNAPSHOT"
+(defproject p8-largest-product-in-series "0.1.0-SNAPSHOT"
   :description "FIXME: write description"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[org.clojure/clojure "1.6.0"]
-                 [criterium "0.4.3"]]
-  :main ^:skip-aot p4-largest-palindrome-product.core
+  :dependencies [[org.clojure/clojure "1.6.0"]]
+  :main ^:skip-aot p8-largest-product-in-series.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})

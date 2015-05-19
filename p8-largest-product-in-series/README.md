@@ -1,4 +1,4 @@
-# p1-multiples-of-3-and-5
+# p8-largest-product-in-series
 
 FIXME: description
 
@@ -10,7 +10,7 @@ Download from http://example.com/FIXME.
 
 FIXME: explanation
 
-    $ java -jar p1-multiples-of-3-and-5-0.1.0-standalone.jar [args]
+    $ java -jar p8-largest-product-in-series-0.1.0-standalone.jar [args]
 
 ## Options
 

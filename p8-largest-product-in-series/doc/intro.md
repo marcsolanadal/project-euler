@@ -1,3 +1,3 @@
-# Introduction to p1-multiples-of-3-and-5
+# Introduction to p8-largest-product-in-series
 
 TODO: write [great documentation](http://jacobian.org/writing/what-to-write/)
